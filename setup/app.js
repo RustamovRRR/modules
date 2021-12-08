@@ -1,9 +1,6 @@
-const people = [
-  { name: "walter", job: "scientist" },
-  { name: "peter", job: "consultant" },
-  { name: "olivia", job: "agent" },
-];
+import { random, people } from "../modules/data.js";
 
+console.log(random);
 const container = document.querySelector(".container");
 const btn = document.querySelector(".btn");
 
